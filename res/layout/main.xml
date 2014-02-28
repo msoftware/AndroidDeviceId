@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+	<TextView
+		android:text="@string/msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+		android:textStyle="bold"
+		android:padding="20dp"
+		android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <TextView
+		android:id="@+id/deviceid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+		android:textStyle="bold"
+		android:padding="20dp"
+		android:textAppearance="?android:attr/textAppearanceLarge"/>
+	<Button
+		android:id="@+id/mailbutton"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+		android:textStyle="bold"
+		android:text="Send E-Mail"
+		android:padding="20dp"
+		android:onClick="sendDeviceId"
+		android:textAppearance="?android:attr/textAppearanceLarge"/>
+		
+
+</LinearLayout>
